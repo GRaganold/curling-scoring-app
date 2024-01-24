@@ -1,22 +1,24 @@
 import React from 'react';
-import App123 from './views/homepage';
+import Game from './components/Game';
+import { Box,  } from '@chakra-ui/react';
 
 
 
 
 export default function App() {
- 
-  return (
-    <> 
 
-       <br />
-       <br />
-       <br />
-       <br />
+  return (
+    <>
+
+      <br />
+      <br />
+      <br />
+      <br />
       <p> Hello</p>
       <br />
-      <App123 />
-
-      </>
+      <Box p={1}>
+        <Game />
+      </Box>
+    </>
   );
 }
